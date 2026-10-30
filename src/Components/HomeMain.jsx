@@ -7,6 +7,16 @@ const HomeMain = () => {
       <Cover />
 
       <div>kgkggk</div>
+      <div>kgkggk</div>
+      <div>kgkggk</div>
+      <div>kgkggk</div>
+      <div>kgkggk</div>
+      <div>kgkggk</div>
+      <div>kgkggk</div>
+      <div>kgkggk</div>
+      <div>kgkggk</div>
+      <div>kgkggk</div>
+      <div>kgkggk</div>
     </div>
   );
 };

@@ -5,7 +5,7 @@ import { FiSidebar } from "react-icons/fi";
 const LeftSideBar = ({ getCollapsed, sendDataCol }) => {
   const menu = menuLists;
   return (
-    <div className=" w-full h-full overflow-y-scroll scrollbar-none flex flex-col gap-3 p-0 py-3 pl-3 border-r border-r-black/20">
+    <div className=" sticky top-0 left-0 w-full h-full overflow-y-scroll scrollbar-none flex flex-col gap-3 p-0 py-3 pl-3 border-r border-r-black/20">
       <div
         className={`flex items-center ${sendDataCol ? "justify-center" : "justify-between"}`}
       >

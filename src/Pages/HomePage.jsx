@@ -17,7 +17,7 @@ const HomePage = () => {
       </div>
       <div className="w-full h-full flex flex-row items-start justify-center gap-3 transition-all duration-300">
         <aside
-          className={` sticky top-0 transition-all duration-300 ${isCollapsed ? "w-auto" : "w-[25%]"}`}
+          className={` transition-all duration-300 ${isCollapsed ? "w-auto" : "w-[25%]"}`}
         >
           <LeftSideBar getCollapsed={getCollapsed} sendDataCol={isCollapsed} />
         </aside>
