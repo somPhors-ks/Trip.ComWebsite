@@ -4,6 +4,7 @@ import { places } from "../assets/assets";
 import { IoClose } from "react-icons/io5";
 import { IoMdAddCircleOutline } from "react-icons/io";
 import { LuCircleMinus } from "react-icons/lu";
+import Schedule from "./Schedule";
 
 const FligthSearch = () => {
   const [isLeavingFrom, setIsLeavingFrom] = useState(false);
@@ -18,9 +19,13 @@ const FligthSearch = () => {
   const [childrenValue, setChildrenValue] = useState(0);
   const [infantsValue, setInfantsValue] = useState(0);
 
+  const [isSchedule, setIsSchedule] = useState(false);
+  const [getTheDate, setGetTheDate] = useState("Select Date");
+
   const handleLeavingFromOpen = () => {
     setIsLeavingFrom(true);
     setIsGoingTo(false);
+    setIsSchedule(false);
     setIsPassenger(false);
   };
   const handleLeavingSelected = (value) => {
@@ -35,6 +40,7 @@ const FligthSearch = () => {
   const handleGoingToOpen = () => {
     setIsLeavingFrom(false);
     setIsPassenger(false);
+    setIsSchedule(false);
     setIsGoingTo(true);
   };
   const handleGoingToSelected = (value) => {
@@ -49,6 +55,7 @@ const FligthSearch = () => {
   const handlePassengerOpen = () => {
     setIsLeavingFrom(false);
     setIsGoingTo(false);
+    setIsSchedule(false);
     setIsPassenger(true);
   };
   const handlePassengerDone = () => {
@@ -56,36 +63,23 @@ const FligthSearch = () => {
     setPassengerValue(adultValue + childrenValue + infantsValue);
   };
 
-  return (
-    <div className=" w-full flex flex-col items-center justify-center gap-3">
-      <div className=" w-full p-2 flex gap-5">
-        <div className=" flex items-center justify-center gap-2">
-          <input type="radio" id="roundTrip" name="radioChoice" />{" "}
-          <label for="roundTrip" className=" text-[14px] text-black/80">
-            Round-trip
-          </label>
-        </div>
-        <div className=" flex items-center justify-center gap-2">
-          <input type="radio" id="oneway" name="radioChoice" />{" "}
-          <label for="oneway" className=" text-[14px] text-black/80">
-            One-Way
-          </label>
-        </div>
-        <div className=" flex items-center justify-center gap-2">
-          <input type="radio" id="multyCity" name="radioChoice" />{" "}
-          <label for="multyCity" className=" text-[14px] text-black/80">
-            Multi-City
-          </label>
-        </div>
-        <span className="text-[14px] text-black/20">|</span>
-        <div className=" flex items-center justify-center gap-2">
-          <input type="checkbox" id="nonStop" />{" "}
-          <label for="nonStop" className=" text-[14px] text-black/80">
-            Nonstop
-          </label>
-        </div>
-      </div>
+  const handleScheduleOpen = () => {
+    setIsSchedule(true);
+    setIsPassenger(false);
+    setIsLeavingFrom(false);
+    setIsGoingTo(false);
+  };
 
+  const getNewDate = (date) => {
+    setGetTheDate(date);
+    console.log(date);
+  };
+  const getIsSchedule = (value) => {
+    setIsSchedule(value);
+  };
+
+  return (
+    <div className=" w-full flex flex-col items-center justify-center gap-3 mt-5">
       {/*  */}
       <div className=" w-full grid grid-cols-4 gap-2 relative">
         <button
@@ -120,8 +114,11 @@ const FligthSearch = () => {
             </button>
           )}
         </button>
-        <button className=" w-full flex items-center justify-start p-3 py-4 rounded-md border border-black/20 text-[14px] text-black/80">
-          Select Date
+        <button
+          onClick={handleScheduleOpen}
+          className=" w-full flex items-center justify-start p-3 py-4 rounded-md border border-black/20 text-[14px] text-black/80"
+        >
+          {getTheDate}
         </button>
         <button
           onClick={handlePassengerOpen}
@@ -196,6 +193,12 @@ const FligthSearch = () => {
                 );
               })}
             </div>
+          </div>
+        )}
+
+        {isSchedule && (
+          <div className="w-[80%] absolute top-0 right-0 p-3 rounded-md shadow bg-white overflow-scroll scrollbar-none">
+            <Schedule getNewDate={getNewDate} getIsSchedule={getIsSchedule} />
           </div>
         )}
 
