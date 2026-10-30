@@ -46,9 +46,9 @@ const LeftSideBar = ({ getCollapsed, sendDataCol }) => {
                   {sendDataCol ? "" : menu.labelName}
                 </a>
               </li>
-              {menu.id === 5 ? <hr className=" text-black/20" /> : ""}
-              {menu.id === 8 ? <hr className=" text-black/20" /> : ""}
-              {menu.id === 12 ? <hr className=" text-black/20" /> : ""}
+              {menu.id === 6 ? <hr className=" text-black/20" /> : ""}
+              {menu.id === 9 ? <hr className=" text-black/20" /> : ""}
+              {menu.id === 13 ? <hr className=" text-black/20" /> : ""}
             </div>
           );
         })}
