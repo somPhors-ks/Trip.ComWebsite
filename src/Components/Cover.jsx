@@ -8,6 +8,7 @@ import FligthSearch from "./FligthSearch";
 import { BiSolidOffer } from "react-icons/bi";
 import { MdLocalOffer } from "react-icons/md";
 import { BsLightningChargeFill } from "react-icons/bs";
+import TrianSearch from "./TrianSearch";
 
 const Cover = () => {
   const menuFilter = menuLists.filter((m) => m.id <= 6);
@@ -124,6 +125,7 @@ const Cover = () => {
             <div className="w-full flex flex-col items-center justify-center text-black">
               {isActive === 1 && <HotelHomeSearch />}
               {isActive === 2 && <FligthSearch />}
+              {isActive === 3 && <TrianSearch />}
               <div className="w-full flex flex-col gap-3 mt-8">
                 <hr className=" text-black/20" />
                 <p className="flex items-center justify-end text-[14px]">

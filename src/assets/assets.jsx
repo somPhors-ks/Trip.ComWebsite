@@ -99,7 +99,6 @@ export const menuLists = [
     icon: <MdPhoneAndroid />,
   },
 ];
-
 export const imageList = {
   coverHome1: HomeCover1,
   coverHome2: HomeCover2,
@@ -108,7 +107,6 @@ export const imageList = {
   coverHome5: HomeCover5,
   coverHome6: HomeCover6,
 };
-
 export const places = [
   {
     id: 1,
@@ -167,7 +165,6 @@ export const places = [
     ],
   },
 ];
-
 export const monthNames = [
   "January",
   "February",
@@ -182,5 +179,38 @@ export const monthNames = [
   "November",
   "December",
 ];
-
 export const weekdays = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+export const cityStation = [
+  {
+    id: 1,
+    titleName: "China",
+    station: [
+      "Shanghai (Any)",
+      "Guangzhou (Any)",
+      "Beijing (Any)",
+      "Shenzhen (Any)",
+      "Chongqing (Any)",
+      "Chengdu (Any)",
+      "Hangzhou (Any)",
+      "Guangzhou",
+      "Nanjing (Any)",
+      "Shanghai Hongqiao",
+    ],
+  },
+  {
+    id: 2,
+    titleName: "Japan",
+    station: [
+      "Tokyo (Any)",
+      "Osaka (Any)",
+      "Tokyo",
+      "Kyoto (Any)",
+      "Osaka",
+      "Fukuoka (Any)",
+      "Shin-Osaka",
+      "Nagoya (Any)",
+      "Kyoto",
+      "Hakata",
+    ],
+  },
+];

@@ -15,7 +15,7 @@ const HomePage = () => {
       <div className=" w-full bg-white">
         <Header />
       </div>
-      <div className="w-full h-full flex flex-row items-start justify-center gap-3 transition-all duration-300">
+      <div className="w-full h-full flex flex-row items-start justify-center gap-0 transition-all duration-300">
         <div
           className={` sticky top-0 transition-all duration-300 ${isCollapsed ? "w-auto" : "w-[25%]"}`}
         >

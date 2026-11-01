@@ -4,7 +4,7 @@ import { places } from "../assets/assets";
 import { IoClose } from "react-icons/io5";
 import { IoMdAddCircleOutline } from "react-icons/io";
 import { LuCircleMinus } from "react-icons/lu";
-import Schedule from "./Schedule";
+import ScheduleFlight from "./ScheduleFlight";
 
 const FligthSearch = () => {
   const [isLeavingFrom, setIsLeavingFrom] = useState(false);
@@ -198,7 +198,10 @@ const FligthSearch = () => {
 
         {isSchedule && (
           <div className="w-[80%] absolute top-0 right-0 p-3 rounded-md shadow bg-white overflow-scroll scrollbar-none">
-            <Schedule getNewDate={getNewDate} getIsSchedule={getIsSchedule} />
+            <ScheduleFlight
+              getNewDate={getNewDate}
+              getIsSchedule={getIsSchedule}
+            />
           </div>
         )}
 

@@ -5,7 +5,7 @@ import {
 } from "react-icons/md";
 import { monthNames, weekdays } from "../assets/assets";
 
-export default function DepartureCalendar({ getNewDate, getIsSchedule }) {
+const ScheduleFlight = ({ getNewDate, getIsSchedule }) => {
   const [currentMonth, setCurrentMonth] = useState(10);
   const [currentYear, setCurrentYear] = useState(2026);
 
@@ -149,7 +149,7 @@ export default function DepartureCalendar({ getNewDate, getIsSchedule }) {
         </h1>
       </div>
       {/* Calendar */}
-      <div className=" flex items-center justify-center gap-3">
+      <div className=" flex items-start justify-center gap-3">
         {/* Previous */}
         <button onClick={goPrevious} className=" hover:text-blue-600">
           <MdOutlineKeyboardArrowLeft className="w-6 h-6" />
@@ -192,4 +192,6 @@ export default function DepartureCalendar({ getNewDate, getIsSchedule }) {
       </div>
     </div>
   );
-}
+};
+
+export default ScheduleFlight;
