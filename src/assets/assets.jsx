@@ -40,6 +40,13 @@ import inspiredOption7 from "./Images/inspiredParis.jpg";
 import inspiredOption8 from "./Images/inspiredSapporo.jpg";
 import inspiredOption9 from "./Images/inspiredShanghai.jpg";
 
+import angkorWat from "./Images/angkorwat.jpg";
+import angkorPark from "./Images/AngkorArchaeologicalPark.jpg";
+import phnomSompov from "./Images/PhnomSampowPagoda.jpg";
+import somraongKnong from "./Images/WatSomraongKnong.jpg";
+import ekPhnom from "./Images/EkPhnomPagoda.jpg";
+import absara from "./Images/Absara.jpg";
+
 export const menuLists = [
   {
     id: 1,
@@ -540,5 +547,67 @@ export const inSpiredOptions = [
     title: "Shanghai",
     headTop: "Medium haul",
     inmageUrl: inspiredOption9,
+  },
+];
+export const battambangItemRow1 = [
+  {
+    id: 1,
+    headTop: "Trip.Best",
+    location: "Siem Reap",
+    rate: "9.8",
+    name: "Angkor Wat",
+    viewers: 3585,
+    startRating: "4.8/5",
+    imgUrl: angkorWat,
+  },
+  {
+    id: 2,
+    headTop: "Trip.Best",
+    location: "Siem Reap",
+    rate: "9.2",
+    name: "Angkor Archaeological Park",
+    viewers: 2049,
+    startRating: "4.5/5",
+    imgUrl: angkorPark,
+  },
+  {
+    id: 3,
+    headTop: "",
+    location: "Ek Phnom",
+    rate: "8.6",
+    name: "Ek Phnom Pagoda",
+    viewers: 458,
+    startRating: "4.3/5",
+    imgUrl: ekPhnom,
+  },
+  {
+    id: 4,
+    headTop: "",
+    location: "Phum Anh'Chanh",
+    rate: "9.4",
+    name: "Phare Ponleu Selpak",
+    viewers: 3086,
+    startRating: "4.8/5",
+    imgUrl: absara,
+  },
+  {
+    id: 5,
+    headTop: "",
+    location: "Banan",
+    rate: "7.8",
+    name: "Phnom Sampow Pagoda",
+    viewers: 3495,
+    startRating: "4.1/5",
+    imgUrl: phnomSompov,
+  },
+  {
+    id: 6,
+    headTop: "",
+    location: "Ek Phnom",
+    rate: "9.8",
+    name: "Wat Somraong Knong",
+    viewers: 1085,
+    startRating: "4.8/5",
+    imgUrl: somraongKnong,
   },
 ];
