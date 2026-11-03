@@ -14,6 +14,7 @@ import {
   MdPhoneAndroid,
 } from "react-icons/md";
 import { SiMentorcruise } from "react-icons/si";
+import { CiCircleMore } from "react-icons/ci";
 
 import HomeCover1 from "./Images/homeCover.jpg";
 import HomeCover2 from "./Images/Cover02.jpg";
@@ -21,6 +22,23 @@ import HomeCover3 from "./Images/Cover03.jpg";
 import HomeCover4 from "./Images/Cover04.jpg";
 import HomeCover5 from "./Images/Cover05.jpg";
 import HomeCover6 from "./Images/Cover06.jpg";
+
+import megaSalePoster from "./Images/11-11megasale.jpg";
+import slide01 from "./Images/curousel01.jpg";
+import slide02 from "./Images/curousel02.jpg";
+import slide03 from "./Images/curousel03.jpg";
+import slide04 from "./Images/curousel04.jpg";
+import slide05 from "./Images/curousel05.jpg";
+
+import inspiredOption1 from "./Images/inspiredEnywhere.jpg";
+import inspiredOption2 from "./Images/inspiredBattambang.jpg";
+import inspiredOption3 from "./Images/inspiredChongqing.jpg";
+import inspiredOption4 from "./Images/inspiredDaNang.jpg";
+import inspiredOption5 from "./Images/inspiredDubai.jpg";
+import inspiredOption6 from "./Images/inspiredMelbourne.jpg";
+import inspiredOption7 from "./Images/inspiredParis.jpg";
+import inspiredOption8 from "./Images/inspiredSapporo.jpg";
+import inspiredOption9 from "./Images/inspiredShanghai.jpg";
 
 export const menuLists = [
   {
@@ -106,7 +124,20 @@ export const imageList = {
   coverHome4: HomeCover4,
   coverHome5: HomeCover5,
   coverHome6: HomeCover6,
+  megaSale: megaSalePoster,
+  curousel1: slide01,
+  curousel2: slide02,
+  curousel3: slide03,
+  curousel4: slide04,
+  curousel5: slide05,
 };
+export const curouselImage = [
+  { id: 1, image: imageList.curousel1 },
+  { id: 2, image: imageList.curousel2 },
+  { id: 3, image: imageList.curousel3 },
+  { id: 4, image: imageList.curousel4 },
+  { id: 5, image: imageList.curousel5 },
+];
 export const places = [
   {
     id: 1,
@@ -212,5 +243,302 @@ export const cityStation = [
       "Kyoto",
       "Hakata",
     ],
+  },
+  {
+    id: 3,
+    titleName: "Vietnam",
+    station: [
+      "Hanoi (Any)",
+      "Da Nang",
+      "Hanoi",
+      "Ho Chi Minh City",
+      "Nha Trang",
+      "Hue",
+      "Laocai",
+      "Khanh Hoa",
+      "Nha Trang",
+    ],
+  },
+  {
+    id: 4,
+    titleName: "France",
+    station: [
+      "Paris (Any)",
+      "Paris Gare du Nord",
+      "Lyon (Any)",
+      "Marseille (Any)",
+      "Lille (Any)",
+      "Nice (Any)",
+      "Lyon Part Dieu",
+      "Marseille-St-Charles",
+      "Lille Europe",
+      "Paris - Gare de Lyon - Hall",
+    ],
+  },
+  {
+    id: 5,
+    titleName: "Hong Kong, China",
+    station: ["Hong Kong (Any)", "Hong Kong West Kowloon"],
+  },
+  {
+    id: 6,
+    titleName: "United Kingdom",
+    station: [
+      "London (Any)",
+      "Manchester (Any)",
+      "Birmingham (Any)",
+      "Edinburgh (Any)",
+      "London Euston",
+      "London St. Pancras",
+      "Birmingham New Street",
+      "Manchester Piccadilly",
+      "Glasgow (Any)",
+      "London Kings Cross",
+    ],
+  },
+  {
+    id: 7,
+    titleName: "South Korea",
+    station: [
+      "Seoul (Any)",
+      "Seoul",
+      "Busan (Any)",
+      "Busan",
+      "Daegu (Any)",
+      "Pyeongtaek",
+      "Daejeon",
+      "Manchester Piccadilly",
+      "Gyeongju",
+      "Jeonju",
+      "Suwon",
+    ],
+  },
+  {
+    id: 8,
+    titleName: "Switzerland",
+    station: [
+      "Zurich",
+      "Basel",
+      "Geneva (Any)",
+      "Busan",
+      "Zürich HB",
+      "Interlaken",
+      "Basel SBB",
+      "Lucerne/Luzern (Any)",
+      "Lugano (any)",
+      "Berne (Any)",
+      "Geneva Cornavin",
+    ],
+  },
+  {
+    id: 9,
+    titleName: "Italy",
+    station: [
+      "Milan (Any)",
+      "Rome (Any)",
+      "Milan Central",
+      "Rome Termini",
+      "Florence (Any)",
+      "Bologna (Any)",
+      "Naples (Any)",
+      "Metropolitan (Any)",
+      "Bologna Centrale",
+      "Turin (Any)",
+    ],
+  },
+  {
+    id: 10,
+    titleName: "Laos",
+    station: [
+      "Vientiane",
+      "Luang Prabang",
+      "Vang Vieng",
+      "Boten",
+      "Vientiane (Khamsavath)",
+      "gaxi",
+      "penghong",
+      "namo",
+      "menga",
+      "Muang Xai",
+    ],
+  },
+  {
+    id: 11,
+    titleName: "Germany",
+    station: [
+      "Cologne (Any)",
+      "Frankfurt (Main) (Any)",
+      "Berlin (Any)",
+      "Köln Hbf",
+      "Munich (Any)",
+      "Hamburg (Any)",
+      "München Hbf",
+      "Düsseldorf (Any)",
+      "Flughafen (Dus) (Any)",
+      "Frankfurt (Main) Hbf",
+    ],
+  },
+  {
+    id: 12,
+    titleName: "Spain",
+    station: [
+      "Madrid (Any)",
+      "Barcelona (Any)",
+      "Madrid-Puerta De Atocha",
+      "Barcelona-Sants",
+      "Madrid-Chamartín",
+      "Zaragoza (Any)",
+      "Valencia (Any)",
+      "Seville (Any)",
+      "Cordoba (Any)",
+      "Zaragoza-Delicias",
+    ],
+  },
+  {
+    id: 13,
+    titleName: "Netherlands",
+    station: [
+      "Amsterdam",
+      "Amsterdam Centraal",
+      "Rotterdam",
+      "Rotterdam Centraal",
+      "Schiphol Amsterdam Aeroport(any)",
+      "Schiphol (Airport)",
+      "Utrecht",
+      "Amsterdam Bijlmer ArenA",
+      "Utrecht Central Train Station",
+      "Eindhoven",
+    ],
+  },
+  {
+    id: 14,
+    titleName: "Europe (Other)",
+    station: [
+      "Brussels (Any)",
+      "Sint-Gillis(any)",
+      "Bruxelles Midi",
+      "Antwerpen (Any)",
+    ],
+  },
+];
+export const exclusiveItems = [
+  {
+    id: 1,
+    discount: 10,
+    labelName: "Hotels & Homes",
+    routerName: "",
+    condition: [
+      "Once claimed, promo codes are valid for 14 days.",
+      "Promotion platform: Trip.com.",
+      "To receive the discount, bookings must be paid for using the currency of the promo code.",
+      "Promo codes cannot be used in conjunction with any other discounts.",
+      "Promo codes can only used by users who haven't yet made a booking using the Trip.com. Only one new hotel guest promo code can be applied per user.",
+      "Promo codes cannot be exchanged for cash or Trip Coins.",
+      "If a booking which a promo code was applied to becomes invalid or is canceled, the promo code applied to the booking will be automatically returned to the user's account.",
+      "Trip.com reserves all rights of final interpretation.",
+      "Please note that the promo codes may not apply to all hotels or room types.",
+      "When users access the Trip.com website and app through third-party channels (including but not limited to external links, advertisement pages, and partner apps/mobile websites), certain promotional products or services may not be eligible for the Trip.com promo code discount. Please check the product pages and the final checkout page for specific details.Promo codes are not applicable to booking fees incurred from certain upgrade rewards or purchasing additional items.",
+      "Promo codes are not applicable to booking fees incurred from certain upgrade rewards or purchasing additional items.",
+    ],
+    btnTitle: "Use",
+    mainIcon: <IoIosBed />,
+    conditionIcon: <CiCircleMore />,
+  },
+  {
+    id: 2,
+    discount: 5,
+    labelName: "EU trains",
+    routerName: "",
+    condition: [
+      "Promotion platform: Trip.com app and website.",
+      "Eligibility: This promo code can only be used to save 5% on your first Europe (Only apply for France, Germany, Italy and Spain) train ticket booking. Not applicable to cross-border routes. There are limitations on the maximum discount amount and the payment currency.",
+      "Validity period: Once claimed, the promo code is valid for 30 days.",
+      "Each user can only use the promo code once and the promo codes cannot be used together with other promotions. Only 1 promo code can be used per device, email address, or payment account.",
+      "Each payment card is eligible for the discount only once. A single payment card cannot be used multiple times for the same promotion.",
+      "If you cancel your booking after it is confirmed, the promo code will not be returned to you. If you cancel your booking before your ticket is issued or if we are unable to issue you a ticket, the promo code will be returned to your account.",
+      "Trip.com reserves the right to cancel, immediately and without prior notification, any discounts or bookings of users who engage in improper behaviour. This includes but is not limited to creating fraudulent accounts or bookings, exploiting software vulnerabilities, and participating in the promotion through any other action that Trip.com considers improper.",
+
+      "Trip.com reserves the right of final interpretation.",
+    ],
+    btnTitle: "Use",
+    mainIcon: <FaTrainTram />,
+    conditionIcon: <CiCircleMore />,
+  },
+  {
+    id: 3,
+    discount: 10,
+    labelName: "Attractions & Tours",
+    routerName: "",
+    condition: [
+      "The coupon code is valid for use within 3 days after receiving it, and will automatically expire after expiration.",
+      "Activity platform: Trip.com desktop website, mobile app.",
+      "Usage: Order designated attractions & tours products, select the designated coupon code on the booking page to get a 10% discount, with a maximum reduction of USD 4. The discount is applicable to reservations paid in certain currencies and to certain products.",
+      "For multiple products purchased in the same order, only 1 coupon can be used. The coupons supported by different products may vary, and the final discount amount is subject to the amount shown in the order details.",
+      "Each UID can only be used once.",
+      "The number of coupon codes is limited, first come first served, while stocks last.",
+      "If you cancel your reservation, the used coupon code will be automatically returned to the relevant Trip.com account and can be used again during the discount period.",
+      "Trip.com reserves the final right of interpretation. Trip.com may make appropriate modifications/adjustments to the rules/terms of the coupon within the scope permitted by law.",
+    ],
+    btnTitle: "Use",
+    mainIcon: <MdAttractions />,
+    conditionIcon: <CiCircleMore />,
+  },
+  {
+    id: 4,
+    discount: 10,
+    labelName: "Airport Transfers",
+    routerName: "",
+    condition: [
+      "Scope of use: This promo code can be applied to an airport transfer booking prepaid online.",
+      "Validity: Once claimed, the promo code is valid for 7 days. Once expired, it will be considered invalid.",
+      "Discount: This promo code can be used to save 10% on airport transfer bookings (excluding add-ons, such as child seats and insurance).",
+      "Usage restrictions: During the validity period there are no restrictions on the pick-up time. Each promo code can only be used once. It can only be used by the user to whom it was issued, and cannot be split, given as a gift, or used in conjunction with any other promo code. In the event that the value of the promo code is greater than the value of the booking, the excess will not be returned to the user. Promo codes cannot be redeemed for cash or Trip Coins. The promo code cannot be applied to a booking for which payment has already been completed.",
+      "Cancellations: If the booking is canceled for free, payment times out, or the purchase fails, the promo code will be automatically returned to user's account if it is still valid. If the promo code is no longer valid, it will not be returned to the user's account. Once paid for, bookings cannot be modified. If the promo code has been applied to a booking that is later canceled and a cancellation fee is incurred, the promo code will not be returned as the discount has already been applied (or partially applied) to the booking.",
+      "Disclaimer: a) In cases of malicious use (including but not limited to malicious bookings, malicious registration, or exploiting system vulnerabilities) Trip.com reserves the right to rescind any promo code and its related booking. b) Trip.com may amend or revise the terms and conditions of these promo codes to the extent permitted by all applicable laws.",
+    ],
+    btnTitle: "Use",
+    mainIcon: <FaCarAlt />,
+    conditionIcon: <CiCircleMore />,
+  },
+];
+export const inSpiredOptions = [
+  { id: 1, title: "Anywhere", headTop: "", inmageUrl: inspiredOption1 },
+  {
+    id: 2,
+    title: "Battambang",
+    headTop: "Short haul",
+    inmageUrl: inspiredOption2,
+  },
+  {
+    id: 3,
+    title: "Chongqing",
+    headTop: "Medium haul",
+    inmageUrl: inspiredOption3,
+  },
+  {
+    id: 4,
+    title: "Da Nang",
+    headTop: "Short haul",
+    inmageUrl: inspiredOption4,
+  },
+  { id: 5, title: "Dubai", headTop: "Long haul", inmageUrl: inspiredOption5 },
+  {
+    id: 6,
+    title: "Melbourne",
+    headTop: "Long haul",
+    inmageUrl: inspiredOption6,
+  },
+  { id: 7, title: "Paris", headTop: "Long haul", inmageUrl: inspiredOption7 },
+  {
+    id: 8,
+    title: "Sapporo",
+    headTop: "Medium haul",
+    inmageUrl: inspiredOption8,
+  },
+  {
+    id: 9,
+    title: "Shanghai",
+    headTop: "Medium haul",
+    inmageUrl: inspiredOption9,
   },
 ];

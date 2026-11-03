@@ -15,9 +15,9 @@ const Cover = () => {
   const [isActive, setIsActive] = useState(1);
 
   return (
-    <div className="w-full px-10 transition-all duration-300">
+    <div className="w-full transition-all duration-300">
       <div
-        className="w-full h-auto bg-cover bg-center bg-no-repeat rounded-2xl"
+        className="w-full h-auto bg-cover bg-center bg-no-repeat rounded-2xl transform"
         style={{
           backgroundImage: `url(${isActive === 1 ? imageList.coverHome1 : isActive === 2 ? imageList.coverHome2 : isActive === 3 ? imageList.coverHome3 : isActive === 4 ? imageList.coverHome4 : isActive === 5 ? imageList.coverHome5 : imageList.coverHome6})`,
         }}
@@ -122,7 +122,7 @@ const Cover = () => {
               })}
             </div>
 
-            <div className="w-full flex flex-col items-center justify-center text-black">
+            <div className="w-full flex flex-col items-center justify-center text-black transform">
               {isActive === 1 && <HotelHomeSearch />}
               {isActive === 2 && <FligthSearch />}
               {isActive === 3 && <TrianSearch />}
