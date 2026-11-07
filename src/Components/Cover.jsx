@@ -15,7 +15,7 @@ const Cover = () => {
   const [isActive, setIsActive] = useState(1);
 
   return (
-    <div className="w-full transition-all duration-300">
+    <div className="w-full transition-all duration-300 z-100">
       <div
         className="w-full h-auto bg-cover bg-center bg-no-repeat rounded-2xl transform"
         style={{

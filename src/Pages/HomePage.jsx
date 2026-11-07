@@ -15,14 +15,14 @@ const HomePage = () => {
       <div className=" w-full bg-white">
         <Header />
       </div>
-      <div className="w-full h-full flex flex-row items-start justify-center gap-0 transition-all duration-300">
+      <div className="w-full h-full flex flex-row items-start justify-start gap-0 transition-all duration-300">
         <div
-          className={` sticky top-0 transition-all duration-300 ${isCollapsed ? "w-auto" : "w-[25%]"}`}
+          className={` sticky top-0 transition-all duration-300 ${isCollapsed ? "w-[3%]" : "w-[20%]"}`}
         >
           <LeftSideBar getCollapsed={getCollapsed} sendDataCol={isCollapsed} />
         </div>
 
-        <main className=" w-full">
+        <main className={`${isCollapsed ? "w-[97%]" : "w-[80%]"}`}>
           <HomeMain />
         </main>
       </div>

@@ -17,14 +17,14 @@ const BattambangTopSign = () => {
       </p>
       <div className="w-full h-auto flex items-center justify-start overflow-hidden relative transition-all duration-900">
         <div
-          style={{ transform: `translateX(-${currentIndex * 25}%)` }}
+          style={{ transform: `translateX(-${currentIndex * 20}%)` }}
           className=" w-full h-auto flex items-start justify-start gap-0 transform transition-all duration-900"
         >
           {battambangItemRow1.map((bat) => {
             return (
               <article
                 key={bat.id}
-                className="w-[25%] shrink-0 transform transition-all duration-300 p-1.5"
+                className="w-[20%] shrink-0 transform transition-all duration-300 p-1.5"
               >
                 <div
                   style={{ backgroundImage: `url(${bat.imgUrl})` }}
@@ -86,7 +86,7 @@ const BattambangTopSign = () => {
         ) : (
           <span className=" opacity-0">.</span>
         )}
-        {currentIndex < 2 ? (
+        {currentIndex < 1 ? (
           <button
             onClick={() => setCurrentIndex((index) => index + 1)}
             className=" absolute right-0 translate-y-[-25%] flex items-center justify-center bg-white p-1 rounded-full cursor-pointer hover:scale-101 transition-all duration-300 shadow-md"

@@ -56,6 +56,17 @@ import batt07 from "./Images/bat07.jpg";
 import batt08 from "./Images/bat08.jpg";
 import batt09 from "./Images/bat09.jpg";
 
+import chongqing01 from "./Images/chongqing01.jpg";
+import chongqing02 from "./Images/chongqing02.jpg";
+import chongqing03 from "./Images/chongqing03.jpg";
+import chongqing04 from "./Images/chongqing04.jpg";
+import chongqing05 from "./Images/chongqing05.jpg";
+import chongqing06 from "./Images/chongqing06.jpg";
+import chongqing07 from "./Images/chongqing07.jpg";
+import chongqing08 from "./Images/chongqing08.jpg";
+import chongqing09 from "./Images/chongqing09.jpg";
+import chongqing10 from "./Images/chongqing10.jpg";
+
 export const menuLists = [
   {
     id: 1,
@@ -698,5 +709,118 @@ export const battambangItemRow2 = [
     profileimg: "",
     desc: "Walk around Battambang Old Town Start with a slow walk through the city centre",
     imgUrl: batt09,
+  },
+];
+
+export const chongqingItemRow1 = [
+  {
+    id: 1,
+    routerName: "",
+    headTop: "Trip.Best",
+    location: "Chongqing",
+    rate: "8.7",
+    name: "Hongya Cave",
+    viewers: 3585,
+    startRating: "8,765 ",
+    imgUrl: chongqing01,
+  },
+  {
+    id: 2,
+    routerName: "",
+    headTop: "Trip.Best",
+    location: "Chongqing",
+    rate: "8.3",
+    name: "Three Natural Bridges",
+    viewers: 17375,
+    startRating: "4.6/5",
+    imgUrl: chongqing02,
+  },
+  {
+    id: 3,
+    routerName: "",
+    headTop: "",
+    location: "Chongqing",
+    rate: "8.3",
+    name: "Wulong Karst Tourism Area",
+    viewers: 5226,
+    startRating: "4.6/5",
+    imgUrl: chongqing03,
+  },
+  {
+    id: 4,
+    routerName: "",
+    headTop: "",
+    location: "Chongqing",
+    rate: "8.2",
+    name: "Yangtze River Cableway",
+    viewers: 18400,
+    startRating: "4.2/5",
+    imgUrl: chongqing04,
+  },
+  {
+    id: 5,
+    routerName: "",
+    headTop: "",
+    location: "Chongqing",
+    rate: "8.2",
+    name: "Chongqing Zoo",
+    viewers: 16590,
+    startRating: "4.7/5",
+    imgUrl: chongqing05,
+  },
+  {
+    id: 6,
+    routerName: "",
+    headTop: "",
+    location: "Chongqing",
+    rate: "7.9",
+    name: "Jiefangbei Pedestrian Street",
+    viewers: 5643,
+    startRating: "4.7/5",
+    imgUrl: chongqing06,
+  },
+  {
+    id: 7,
+    routerName: "",
+    headTop: "",
+    location: "Chongqing",
+    rate: "7.8",
+    name: "EYE IN THE CLOUDS",
+    viewers: 7092,
+    startRating: "4.8/5",
+    imgUrl: chongqing07,
+  },
+  {
+    id: 8,
+    routerName: "",
+    headTop: "",
+    location: "Fengjie County",
+    rate: "7.8",
+    name: "White Emperor City Qutang Gorge Scenic Spot",
+    viewers: 4040,
+    startRating: "4.6/5",
+    imgUrl: chongqing08,
+  },
+  {
+    id: 9,
+    routerName: "",
+    headTop: "",
+    location: "Chongqing",
+    rate: "7.6",
+    name: "Ciqikou Town",
+    viewers: 14440,
+    startRating: "4.6/5",
+    imgUrl: chongqing09,
+  },
+  {
+    id: 10,
+    routerName: "",
+    headTop: "",
+    location: "Chongqing",
+    rate: "7.5",
+    name: "Dazu Rock Carvings",
+    viewers: 8183,
+    startRating: "4.6/5",
+    imgUrl: chongqing10,
   },
 ];

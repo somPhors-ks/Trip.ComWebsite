@@ -1,9 +1,10 @@
 import React from "react";
+import ChongqingTopSign from "./ChongqingTopSign";
 
 const Chongqing = () => {
   return (
-    <div>
-      <p>Chongqing</p>
+    <div className=" w-full flex flex-col gap-3">
+      <ChongqingTopSign />
     </div>
   );
 };
