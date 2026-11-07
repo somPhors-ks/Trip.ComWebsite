@@ -46,6 +46,15 @@ import phnomSompov from "./Images/PhnomSampowPagoda.jpg";
 import somraongKnong from "./Images/WatSomraongKnong.jpg";
 import ekPhnom from "./Images/EkPhnomPagoda.jpg";
 import absara from "./Images/Absara.jpg";
+import batt01 from "./Images/batr01.jpg";
+import batt02 from "./Images/batr02.jpg";
+import batt03 from "./Images/batr03.jpg";
+import batt04 from "./Images/bat04.jpg";
+import batt05 from "./Images/bat05.jpg";
+import batt06 from "./Images/bat06.jpg";
+import batt07 from "./Images/bat07.jpg";
+import batt08 from "./Images/bat08.jpg";
+import batt09 from "./Images/bat09.jpg";
 
 export const menuLists = [
   {
@@ -552,6 +561,7 @@ export const inSpiredOptions = [
 export const battambangItemRow1 = [
   {
     id: 1,
+    routerName: "",
     headTop: "Trip.Best",
     location: "Siem Reap",
     rate: "9.8",
@@ -562,6 +572,7 @@ export const battambangItemRow1 = [
   },
   {
     id: 2,
+    routerName: "",
     headTop: "Trip.Best",
     location: "Siem Reap",
     rate: "9.2",
@@ -572,6 +583,7 @@ export const battambangItemRow1 = [
   },
   {
     id: 3,
+    routerName: "",
     headTop: "",
     location: "Ek Phnom",
     rate: "8.6",
@@ -582,6 +594,7 @@ export const battambangItemRow1 = [
   },
   {
     id: 4,
+    routerName: "",
     headTop: "",
     location: "Phum Anh'Chanh",
     rate: "9.4",
@@ -592,6 +605,7 @@ export const battambangItemRow1 = [
   },
   {
     id: 5,
+    routerName: "",
     headTop: "",
     location: "Banan",
     rate: "7.8",
@@ -602,6 +616,7 @@ export const battambangItemRow1 = [
   },
   {
     id: 6,
+    routerName: "",
     headTop: "",
     location: "Ek Phnom",
     rate: "9.8",
@@ -609,5 +624,79 @@ export const battambangItemRow1 = [
     viewers: 1085,
     startRating: "4.8/5",
     imgUrl: somraongKnong,
+  },
+];
+export const battambangItemRow2 = [
+  {
+    id: 1,
+    routerName: "",
+    profileName: "Ratanak",
+    profileimg: "",
+    desc: "Battambang on a Budget: Free Culture & Cheap Things To Do",
+    imgUrl: batt01,
+  },
+  {
+    id: 2,
+    routerName: "",
+    profileName: "Chan Dara",
+    profileimg: "",
+    desc: "Walk around Battambang Old Town Start with a slow walk through the city centre",
+    imgUrl: batt02,
+  },
+  {
+    id: 3,
+    routerName: "",
+    profileName: "Chan Dara",
+    profileimg: "",
+    desc: "Walk around Battambang Old Town Start with a slow walk through the city centre",
+    imgUrl: batt03,
+  },
+  {
+    id: 4,
+    routerName: "",
+    profileName: "Chan Dara",
+    profileimg: "",
+    desc: "Walk around Battambang Old Town Start with a slow walk through the city centre",
+    imgUrl: batt04,
+  },
+  {
+    id: 5,
+    routerName: "",
+    profileName: "Chan Dara",
+    profileimg: "",
+    desc: "Walk around Battambang Old Town Start with a slow walk through the city centre",
+    imgUrl: batt05,
+  },
+  {
+    id: 6,
+    routerName: "",
+    profileName: "Chan Dara",
+    profileimg: "",
+    desc: "Walk around Battambang Old Town Start with a slow walk through the city centre",
+    imgUrl: batt06,
+  },
+  {
+    id: 7,
+    routerName: "",
+    profileName: "Chan Dara",
+    profileimg: "",
+    desc: "Walk around Battambang Old Town Start with a slow walk through the city centre",
+    imgUrl: batt07,
+  },
+  {
+    id: 8,
+    routerName: "",
+    profileName: "Chan Dara",
+    profileimg: "",
+    desc: "Walk around Battambang Old Town Start with a slow walk through the city centre",
+    imgUrl: batt08,
+  },
+  {
+    id: 9,
+    routerName: "",
+    profileName: "Chan Dara",
+    profileimg: "",
+    desc: "Walk around Battambang Old Town Start with a slow walk through the city centre",
+    imgUrl: batt09,
   },
 ];
