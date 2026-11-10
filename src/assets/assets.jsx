@@ -67,6 +67,17 @@ import chongqing08 from "./Images/chongqing08.jpg";
 import chongqing09 from "./Images/chongqing09.jpg";
 import chongqing10 from "./Images/chongqing10.jpg";
 
+import batHotel1 from "./Images/batHotel1.jpg";
+import batHotel2 from "./Images/batHotel2.jpg";
+import batHotel3 from "./Images/batHotel3.jpg";
+import batHotel4 from "./Images/batHotel4.jpg";
+import batHotel5 from "./Images/batHotel5.jpg";
+import batHotel6 from "./Images/batHotel6.jpg";
+import batHotel7 from "./Images/batHotel7.jpg";
+import batHotel8 from "./Images/batHotel8.jpg";
+import batHotel9 from "./Images/batHotel9.jpg";
+import batHotel10 from "./Images/batHotel10.jpg";
+
 export const menuLists = [
   {
     id: 1,
@@ -709,6 +720,118 @@ export const battambangItemRow2 = [
     profileimg: "",
     desc: "Walk around Battambang Old Town Start with a slow walk through the city centre",
     imgUrl: batt09,
+  },
+];
+export const battambangHotel = [
+  {
+    id: 1,
+    imageUrl: batHotel1,
+    location: "Svay Por",
+    name: "V V Hotel Battambang",
+    star: 4,
+    rating: 9,
+    review: 89,
+    fullPrice: 46,
+    price: 44,
+  },
+  {
+    id: 2,
+    imageUrl: batHotel2,
+    location: "Tuol Ta Ek",
+    name: "Sky Palace Boutique Hotel",
+    star: 4,
+    rating: 8.2,
+    review: 40,
+    fullPrice: 21,
+    price: 13,
+  },
+  {
+    id: 3,
+    imageUrl: batHotel3,
+    location: "Rottanak",
+    name: "Cambana La Riviere Hotel",
+    star: 4,
+    rating: 8.8,
+    review: 70,
+    fullPrice: 63,
+    price: 204,
+  },
+  {
+    id: 4,
+    imageUrl: batHotel4,
+    location: "Rottanak",
+    name: "Emerald BB Battambang Hotel",
+    star: 4,
+    rating: 8.7,
+    review: 89,
+    fullPrice: 17,
+    price: 15,
+  },
+  {
+    id: 5,
+    imageUrl: batHotel5,
+    location: "Kdol Daun Teav",
+    name: "The Sanctuary Homestay",
+    star: 4,
+    rating: 8.1,
+    review: 25,
+    fullPrice: 25,
+    price: 16,
+  },
+  {
+    id: 6,
+    imageUrl: batHotel6,
+    location: "Prek Preah Sdech",
+    name: "Piseth Private Villa Hotel",
+    star: 4,
+    rating: 9.7,
+    review: 8,
+    fullPrice: 137,
+    price: 46,
+  },
+  {
+    id: 7,
+    imageUrl: batHotel7,
+    location: "Svay Por",
+    name: "Angkor Comfort Hotel",
+    star: 4,
+    rating: 8.8,
+    review: 17,
+    fullPrice: null,
+    price: 23,
+  },
+  {
+    id: 8,
+    imageUrl: batHotel8,
+    location: "Chamkar Samraong",
+    name: "STUNG SANGKE HOTEL",
+    star: 4,
+    rating: 7.8,
+    review: 9,
+    fullPrice: 32,
+    price: 25,
+  },
+  {
+    id: 9,
+    imageUrl: batHotel9,
+    location: "Voat Kor",
+    name: "BTB Homestay",
+    star: 4,
+    rating: 10,
+    review: 1,
+    fullPrice: 77,
+    price: 59,
+  },
+  {
+    id: 10,
+    imageUrl: batHotel10,
+    location: "Voat Kor",
+    name: "Maisons Wat Kor",
+    star: 4,
+    rating: 9.2,
+    review: 76,
+    fullPrice: 128,
+    price: 116,
   },
 ];
 

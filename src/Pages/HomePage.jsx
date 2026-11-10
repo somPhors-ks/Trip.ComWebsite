@@ -17,12 +17,12 @@ const HomePage = () => {
       </div>
       <div className="w-full h-full flex flex-row items-start justify-start gap-0 transition-all duration-300">
         <div
-          className={` sticky top-0 transition-all duration-300 ${isCollapsed ? "w-[3%]" : "w-[20%]"}`}
+          className={` sticky top-0 transition-all duration-300 ${isCollapsed ? "w-[3%]" : "w-[15%]"}`}
         >
           <LeftSideBar getCollapsed={getCollapsed} sendDataCol={isCollapsed} />
         </div>
 
-        <main className={`${isCollapsed ? "w-[97%]" : "w-[80%]"}`}>
+        <main className={`${isCollapsed ? "w-[97%]" : "w-[85%]"}`}>
           <HomeMain />
         </main>
       </div>
